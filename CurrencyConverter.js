@@ -7,7 +7,7 @@ const amountTwo=document.getElementById('amount-two');
 const rate=document.getElementById('rate');
 const swap=document.getElementById('swap');
 
-//calculate function
+//calculate function  For Currency
 
 function calculate(){
     const currOne = currencyOne.value;

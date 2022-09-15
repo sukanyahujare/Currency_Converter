@@ -88,9 +88,22 @@ select:focus,input:focus,button:focus{
 }
 
 @media(max-width:600px){
-    .currency input{
+     .currency input{
         width: 200px;
     }
+    .currency{
+        padding: 4px 0;
+        display:table-row;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .currency input{
+            background: transparent;
+            font-size: 25px;
+           align-items: right;
+            /* margin: 10px; */
+        }
 }
 
 

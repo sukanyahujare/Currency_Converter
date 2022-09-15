@@ -104,6 +104,26 @@ select:focus,input:focus,button:focus{
            align-items: right;
             /* margin: 10px; */
         }
+    
+    
+        .currency select {
+            border: 1px solid #dedede;
+            font-size: 15px;
+            background: transparent;
+            background-position: right 10px top 50%,0,0;
+            background-size: 10px auto,100%;
+            background-repeat: no-repeat;
+            width: 100px;
+            margin: 2px;
+        }
+      
+        .btn{
+            border-radius: 5px;
+            font-size: 15px;
+            padding: 2px 8px;
+            width: 90px;
+            height: 30px;
+        }
 }
 
 
